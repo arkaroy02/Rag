@@ -14,3 +14,27 @@ langchain-community
 langchain-ollama
 tabulate
 pandas
+streamlit==1.33.0
+pandas==2.2.2
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# LangChain ecosystem
+langchain==0.1.16
+langchain-community==0.0.33
+langchain-core>=0.1.43,<0.2.0
+
+# Sentence Transformers
+sentence-transformers==2.7.0
+
+# HuggingFace and dependencies
+transformers==4.36.2
+accelerate==0.25.0
+torch==2.2.1  # Make sure this matches your system's CUDA/CPU config
+
+# FAISS for vector storage
+faiss-cpu==1.7.4  # Use faiss-gpu if you want GPU acceleration
+
+# Ollama placeholder (you said you'll switch to cloud so you may skip)
+# langchain-ollama==0.0.6
+
