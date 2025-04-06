@@ -1,31 +1,17 @@
-langchain
-python-dotenv
-ipykernel
-langchain_community
-unstructured 
-langchain_ollama
-faiss_cpu
-python-dotenv
-streamlit
-langchain
-faiss-cpu
-sentence-transformers
-langchain-community
-langchain-ollama
-tabulate
-pandas
-streamlit==1.33.0
-pandas==2.2.2
-requests==2.31.0
-beautifulsoup4==4.12.3
-
-# LangChain ecosystem
+# Core libraries
 langchain==0.1.16
 langchain-community==0.0.33
 langchain-core>=0.1.43,<0.2.0
-
-# Sentence Transformers
+langchain-ollama==0.2.3  # Latest stable version of langchain-ollama
+python-dotenv==0.21.1
+ipykernel>=6.0.0
+streamlit==1.33.0
+faiss-cpu==1.7.4
 sentence-transformers==2.7.0
+tabulate==0.9.0
+pandas==2.2.2
+requests==2.31.0
+beautifulsoup4==4.12.3
 
 # HuggingFace and dependencies
 transformers==4.36.2
@@ -35,6 +21,17 @@ torch==2.2.1  # Make sure this matches your system's CUDA/CPU config
 # FAISS for vector storage
 faiss-cpu==1.7.4  # Use faiss-gpu if you want GPU acceleration
 
-# Ollama placeholder (you said you'll switch to cloud so you may skip)
-# langchain-ollama==0.0.6
+# For managing environment variables
+python-dotenv==0.21.1
 
+# Unstructured dependencies
+unstructured==0.4.8  # Make sure to use a compatible version with your setup
+
+# Sentence Transformers
+sentence-transformers==2.7.0
+
+# LangChain community tools
+langchain-community==0.0.33
+
+# FAISS CPU version for vector indexing
+faiss-cpu==1.7.4
